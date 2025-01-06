@@ -10,7 +10,7 @@ func main() {
 	r := gin.Default()
 	r.GET("/hello", helloHandler)
 	r.Run(":8081")
-	fmt.Println("Server is running on port 8083")
+	fmt.Println("Server is running on port 8084")
 }
 
 func helloHandler(c *gin.Context) {
